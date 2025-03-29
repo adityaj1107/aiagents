@@ -1,0 +1,15 @@
+# Cargo.toml
+[package]
+name = "dqn_tree_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tch = "0.13.0" # Check for the latest version of tch-rs
+rand = "0.8.5"
+chrono = "0.4" # For timestamp
+
+# Ensure you have followed tch-rs setup for LibTorch!
+# https://github.com/LaurentMazare/tch-rs#getting-started
