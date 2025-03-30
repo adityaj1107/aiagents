@@ -1,4 +1,4 @@
-# Java DQN Agent for Structured Tree Environment (using DL4J)
+# Java DQN Agent for Structured Tree Environment
 
 This project implements a Deep Q-Network (DQN) agent in Java using the DeepLearning4J (DL4J) library. The agent learns to interact with a simulated `StructuredTree` environment, aiming to choose actions (node prioritizations) that maximize cumulative rewards based on abstract state features like complexity and urgency.
 
